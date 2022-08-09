@@ -8,8 +8,8 @@
 const okta = require('@okta/okta-sdk-nodejs');
 
 const client = new okta.Client({
-    orgUrl: 'https://dev-236245.okta.com',
-    token: '00lfhkB19jG4mszfyI1Aqia8qXFY62nvQa0QxhPvFx'
+    orgUrl: '#######',
+    token: '#######'
 });
 
 exports.createNewUser = (req, res) => {
